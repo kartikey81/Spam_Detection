@@ -6,6 +6,8 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
 from random import sample
 import pandas as pd # Used for reading the csv data
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import string # For punctuation
 from sklearn.preprocessing import LabelEncoder
