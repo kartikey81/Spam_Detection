@@ -13,8 +13,8 @@ import string # For punctuation
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 import numpy as np
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing import sequence
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers import LSTM, Activation, Dense, Dropout, Input, Embedding
 import matplotlib.pyplot as plt
