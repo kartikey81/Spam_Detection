@@ -5,7 +5,6 @@ import streamlit as st
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
 from random import sample
-from tabnanny import verbose
 import pandas as pd # Used for reading the csv data
 from nltk.corpus import stopwords
 import string # For punctuation
