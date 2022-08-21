@@ -14,7 +14,7 @@ streamlit
 tensorflow-cpu
 opencv-python-headless
 seaborn
-pipreqs
+
 
 nltk
 Pillow
