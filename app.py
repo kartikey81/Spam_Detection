@@ -113,7 +113,7 @@ def review(text):
   print(len(messages_train_features), len(messages_train_features[0]))
   print(len(messages_test_features), len(messages_test_features[0]))
   from tensorflow import keras
-  model = keras.models.load_model('/content/drive/MyDrive/spammodel.h5')
+  model = keras.models.load_model('spammodel.h5')
   y_predict  = [1 if o>0.5 else 0 for o in model.predict(messages_test_features)]
   cf_matrix =confusion_matrix(targets_test,y_predict)
   print(cf_matrix)
